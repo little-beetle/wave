@@ -1735,7 +1735,9 @@ p {
 .choices__list[aria-expanded] {
   margin-top: -6px;
 }
-
+.is-selected {
+  display: none;
+}
 .choices[data-type*="select-one"] .choices__inner {
   border-radius: 10px;
   border: 1px solid var(--color__4);
@@ -2303,7 +2305,7 @@ p {
 .label__check {
   position: relative;
   padding-left: 32px;
-  padding-top: 8px;
+  padding-top: 10px;
   cursor: pointer;
   font-family: "Muller";
   font-style: normal;
@@ -2373,6 +2375,15 @@ p {
 }
 
 /* radion__btn */
+
+.color__radio__check {
+  font-family: "Muller";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #121723;
+}
 
 .radion__btn__list {
   flex-direction: column;
