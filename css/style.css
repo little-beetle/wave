@@ -508,12 +508,14 @@ p {
   fill: var(--color__1);
 }
 
-.header__logo__link:focus svg .letter {
+.header__logo__link:focus-visible svg .letter {
   fill: var(--color__12);
+  outline: none;
 }
 
-.header__logo__link:focus svg .arrow {
+.header__logo__link:focus-visible svg .arrow {
   fill: var(--color__11);
+  outline: none;
 }
 
 .header__logo__link:active svg .letter {
@@ -564,8 +566,9 @@ p {
   color: var(--color__11);
 }
 
-.header__nav__item a:focus {
+.header__nav__item a:focus-visible {
   color: var(--color__14);
+  outline: none;
   background-color: var(--color__12);
 }
 
@@ -603,8 +606,9 @@ p {
   background-color: var(--color__11);
 }
 
-.header__btn__enter:focus {
+.header__btn__enter:focus-visible {
   color: var(--color__14);
+  outline: none;
   border-color: var(--color__11);
   background-color: var(--color__12);
 }
@@ -624,8 +628,9 @@ p {
   stroke: var(--color__12);
 }
 
-.header__search:focus path {
+.header__search:focus-visible path {
   stroke: var(--color__12);
+  outline: none;
 }
 
 .header__search:active path {
@@ -765,8 +770,9 @@ p {
   color: var(--color__12);
 }
 
-.registrantion:focus {
+.registrantion:focus-visible {
   color: var(--color__12);
+  outline: none;
   border-bottom: 1px solid var(--color__10);
 }
 
@@ -809,8 +815,9 @@ p {
   border-color: var(--color__14);
 }
 
-.form-input-enter:focus {
+.form-input-enter:focus-visible {
   background: var(--color__2);
+  outline: none;
   border-color: var(--color__12);
   color: var(--color__14);
 }
@@ -844,8 +851,9 @@ p {
   background-color: var(--color__12);
 }
 
-.btn__form__enter:focus {
+.btn__form__enter:focus-visible {
   background-color: var(--color__12);
+  outline: none;
   border: 2px solid var(--color__10);
 }
 
@@ -879,8 +887,9 @@ p {
   fill: var(--color__11);
 }
 
-.enter__social__link__item:focus .facebook path {
+.enter__social__link__item:focus-visible .facebook path {
   fill: var(--color__12);
+  outline: none;
 }
 
 .enter__social__link__item:active .facebook path {
@@ -900,8 +909,9 @@ p {
   fill: var(--color__10);
 }
 
-.enter__social__link__item:focus .vk rect {
+.enter__social__link__item:focus-visible .vk rect {
   fill: var(--color__12);
+  outline: none;
 }
 
 .enter__social__link__item:active .vk rect {
@@ -921,8 +931,9 @@ p {
   fill: var(--color__11);
 }
 
-.enter__social__link__item:focus .google rect {
+.enter__social__link__item:focus-visible .google rect {
   fill: var(--color__12);
+  outline: none;
 }
 
 .enter__social__link__item:active .google rect {
@@ -976,12 +987,14 @@ p {
   stroke: var(--color__11);
 }
 
-.close__btn:focus circle {
+.close__btn:focus-visible circle {
   stroke: var(--color__12);
+  outline: none;
 }
 
-.close__btn:focus path {
+.close__btn:focus-visible path {
   stroke: var(--color__12);
+  outline: none;
 }
 
 .close__btn:active circle {
@@ -1027,9 +1040,10 @@ p {
   color: var(--color__11);
 }
 
-.header__link__2:focus {
+.header__link__2:focus-visible {
   background-color: var(--color__12);
   color: var(--color__14);
+  outline: none;
 }
 
 .header__link__2:active {
@@ -1137,8 +1151,9 @@ p {
   fill: var(--color__11);
 }
 
-.btn__item__block:focus path {
+.btn__item__block:focus-visible path {
   fill: var(--color__12);
+  outline: none;
 }
 
 .btn__item__block:active path {
@@ -1189,12 +1204,14 @@ p {
   color: var(--color__14);
 }
 
-.block__more__info__bg .header__more__btn:focus {
+.block__more__info__bg .header__more__btn:focus-visible {
   background-color: var(--color__12);
+  outline: none;
 }
 
-.header__more__btn:focus {
+.header__more__btn:focus-visible {
   color: var(--color__10);
+  outline: none;
 }
 
 .block__more__info__bg .header__more__btn:active {
@@ -1270,8 +1287,9 @@ p {
   background-color: var(--color__12);
 }
 
-.prime__btn:focus {
+.prime__btn:focus-visible {
   color: var(--color__14);
+  outline: none;
   border-color: var(--color__10);
   background-color: var(--color__12);
 }
@@ -1368,13 +1386,15 @@ p {
   fill: var(--color__11);
 }
 
-.btn__play:focus svg {
+.btn__play:focus-visible svg {
   fill: var(--color__14);
+  outline: none;
   stroke: var(--color__12);
 }
 
-.btn__play:focus path {
+.btn__play:focus-visible path {
   fill: var(--color__12);
+  outline: none;
 }
 
 .btn__play:active svg {
@@ -1588,17 +1608,20 @@ p {
   fill: var(--color__11);
 }
 
-.like__btn:focus {
+.like__btn:focus-visible {
   background-color: var(--color__12);
   color: var(--color__14);
+  outline: none;
 }
 
-.like__btn:focus path {
+.like__btn:focus-visible path {
   fill: var(--color__14);
+  outline: none;
 }
 
-.like__btn:focus rect {
+.like__btn:focus-visible rect {
   fill: var(--color__14);
+  outline: none;
 }
 
 .like__btn:active {
@@ -1639,9 +1662,10 @@ p {
   background-color: var(--color__12);
 }
 
-.podcast__btn:focus {
+.podcast__btn:focus-visible {
   color: var(--color__14);
   border: 2px solid var(--color__10);
+  outline: none;
   background-color: var(--color__12);
 }
 
@@ -1812,9 +1836,10 @@ p {
   background-color: var(--color__13);
 }
 
-.choices:focus {
+.choices:focus-visible {
   border-radius: 10px;
   background-color: var(--color__5);
+  outline: none;
   border: 1px solid var(--color__11);
 }
 
@@ -1879,9 +1904,10 @@ p {
   background-color: var(--color__11);
 }
 
-.transfer__btn:focus {
+.transfer__btn:focus-visible {
   color: var(--color__14);
   border-color: var(--color__11);
+  outline: none;
   background-color: var(--color__12);
 }
 
@@ -1910,8 +1936,9 @@ p {
   opacity: 0.7;
 }
 
-.transfer__block__list:focus img {
+.transfer__block__list:focus-visible img {
   opacity: 1;
+  outline: none;
 }
 
 .transfer__block__list:active img {
@@ -1976,13 +2003,15 @@ p {
   fill: var(--color__11);
 }
 
-.transfer__link:focus {
+.transfer__link:focus-visible {
   color: var(--color__14);
+  outline: none;
   background-color: var(--color__12);
 }
 
-.transfer__link:focus svg {
+.transfer__link:focus-visible svg {
   fill: var(--color__14);
+  outline: none;
 }
 
 .transfer__link:active {
@@ -2051,8 +2080,9 @@ p {
   stroke: var(--color__12);
 }
 
-.accordion__control:focus {
+.accordion__control:focus-visible {
   color: var(--color__14);
+  outline: none;
   background-color: var(--color__2);
 }
 
@@ -2165,8 +2195,10 @@ p {
   color: var(--color__12);
 }
 
-.guest__accordion__btn:focus {
+.guest__accordion__btn:focus-visible {
   color: var(--color__11);
+
+  outline: none;
   border-bottom: 1px solid var(--color__11);
 }
 
@@ -2191,8 +2223,9 @@ p {
   fill: var(--color__11);
 }
 
-.guest__link:focus path {
+.guest__link:focus-visible path {
   fill: var(--color__12);
+  outline: none;
 }
 
 .guest__link:active path {
@@ -2244,8 +2277,9 @@ p {
   color: var(--color__14);
 }
 
-.btn__content__guest:focus {
+.btn__content__guest:focus-visible {
   background-color: var(--color__11);
+  outline: none;
   border-color: var(--color__11);
   color: var(--color__14);
 }
@@ -2348,8 +2382,9 @@ p {
   border-color: var(--color__11);
 }
 
-.radio-input:focus + .custom__radio__check {
+.radio-input:focus-visible + .custom__radio__check {
   background-color: var(--color__4);
+  outline: none;
   border-color: var(--color__11);
 }
 
@@ -2540,22 +2575,26 @@ p {
   display: block;
 }
 
-.playlist__item__wrapper:focus img {
+.playlist__item__wrapper:focus-visible img {
   opacity: 0.8;
+  outline: none;
 }
 
-.playlist__item__wrapper:focus .playlist__wrapper__descr {
+.playlist__item__wrapper:focus-visible .playlist__wrapper__descr {
   background-color: var(--color__12);
+  outline: none;
   color: var(--color__1);
 }
 
-.playlist__item__wrapper:focus .play__playlist {
+.playlist__item__wrapper:focus-visible .play__playlist {
   display: block;
+  outline: none;
 }
 
-.playlist__item__wrapper:focus .song__title,
-.playlist__item__wrapper:focus .playlist__item__descr {
+.playlist__item__wrapper:focus-visible .song__title,
+.playlist__item__wrapper:focus-visible .playlist__item__descr {
   color: var(--color__1);
+  outline: none;
 }
 
 .playlist__item__wrapper:active img {
@@ -2741,18 +2780,21 @@ p {
   fill: var(--color__7);
 }
 
-.btn__offer:focus {
+.btn__offer:focus-visible {
   color: var(--color__1);
+  outline: none;
   background: var(--color__6);
   border: 2px solid var(--color__7);
 }
 
-.btn__offer:focus .path__circle {
+.btn__offer:focus-visible .path__circle {
   fill: var(--color__7);
+  outline: none;
 }
 
-.btn__offer:focus .path__line {
+.btn__offer:focus-visible .path__line {
   fill: var(--color__1);
+  outline: none;
 }
 
 .btn__offer:active {
@@ -2860,14 +2902,16 @@ p {
   stroke: var(--color__11);
 }
 
-.swiper-button-next:focus svg circle,
-.swiper-button-prev:focus svg circle {
+.swiper-button-next:focus-visible svg circle,
+.swiper-button-prev:focus-visible svg circle {
   stroke: var(--color__12);
+  outline: none;
 }
 
-.swiper-button-next:focus svg path,
-.swiper-button-prev:focus svg path {
+.swiper-button-next:focus-visible svg path,
+.swiper-button-prev:focus-visible svg path {
   stroke: var(--color__12);
+  outline: none;
 }
 
 .swiper-button-next:active svg circle,
@@ -2952,9 +2996,10 @@ p {
   background: var(--color__2);
 }
 
-.form-textarea:focus,
-.form-input:focus {
+.form-textarea:focus-visible,
+.form-input:focus-visible {
   background: var(--color__2);
+  outline: none;
 }
 
 .js-validate-error-field {
@@ -2994,8 +3039,9 @@ p {
   background-color: var(--color__12);
 }
 
-.btn__form:focus {
+.btn__form:focus-visible {
   border-color: var(--color__10);
+  outline: none;
   background-color: var(--color__12);
 }
 
@@ -3084,8 +3130,9 @@ p {
   fill: var(--color__11);
 }
 
-.social__link:focus path {
+.social__link:focus-visible path {
   fill: var(--color__12);
+  outline: none;
 }
 
 .social__link:active path {
@@ -3126,8 +3173,9 @@ p {
   color: var(--color__11);
 }
 
-.footer__link:focus {
+.footer__link:focus-visible {
   color: var(--color__14);
+  outline: none;
   background-color: var(--color__12);
 }
 
