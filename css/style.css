@@ -2070,6 +2070,19 @@ p {
   stroke: var(--color__14);
 }
 
+.guest__content {
+  animation: 2s show ease;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .list__reset__guest {
   margin: 0;
   list-style: none;
@@ -2489,17 +2502,38 @@ p {
   display: block;
 }
 
+.playlist__item__wrapper img {
+  transition: opacity 0.3s ease-in-out;
+}
+
 .playlist__item__wrapper:hover img {
   opacity: 0.8;
+}
+
+.playlist__item__wrapper .playlist__wrapper__descr {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .playlist__item__wrapper:hover .playlist__wrapper__descr {
   background-color: var(--color__11);
 }
 
+.playlist__item__wrapper .song__title,
+.playlist__item__wrapper .playlist__item__descr {
+  transition: color 0.3s ease-in-out;
+}
+
 .playlist__item__wrapper:hover .song__title,
 .playlist__item__wrapper:hover .playlist__item__descr {
   color: var(--color__14);
+}
+
+.playlist__item__wrapper .play__playlist {
+  transition: display 0.3s ease-in-out;
+}
+
+.playlist__item__wrapper .play__playlist svg {
+  transition: display 0.3s ease-in-out;
 }
 
 .playlist__item__wrapper:hover .play__playlist {
