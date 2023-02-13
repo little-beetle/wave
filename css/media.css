@@ -53,6 +53,9 @@
     min-width: 97px;
     margin-left: 8.5px;
   }
+  /* .enter-search {
+    top: 10px;
+  } */
 
   /* prime */
   .prime__block__left {
@@ -389,16 +392,9 @@
     height: 500px;
     display: flex;
   }
-
-  .header__bg__img__1,
-  .header__bg__img__2 {
-    /* background-image: url("../img/burger__spiral.svg"),
-      url("../img/burger__spiral.svg");
-    background-repeat: no-repeat;
-    width: 113px;
-
-    height: 364px;*/
-  }
+  /* .enter-search {
+    top: 0px;
+  } */
   .header__bg__img__2 {
     margin-left: 30px;
     margin-top: 20vh;
@@ -1045,6 +1041,17 @@
     max-width: 160px;
     min-height: 40px;
   }
+
+  /* .enter-search {
+    right: -15px;
+    height: 65px;
+    min-width: 300px;
+    padding: 18px 18px;
+  }
+
+  .exit {
+    margin-left: 9%;
+  } */
   .header__nav__list__2 {
     align-items: flex-start;
   }
@@ -2050,4 +2057,3 @@
     line-height: 103.34%;
   }
 }
-
