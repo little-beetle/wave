@@ -216,11 +216,12 @@
 .guest__row {
   display: flex;
   flex-direction: column;
-  min-width: 1110px;
+  min-width: 1150px;
 }
 
 .accordion__block {
   display: flex;
+  min-width: 1150px;
 }
 .list__reset__guest {
   min-width: 730px;
@@ -228,6 +229,7 @@
 }
 .guest__content {
   max-width: 350px;
+  min-width: 350px;
   margin-left: 30px;
 }
 
@@ -256,6 +258,7 @@
   flex-wrap: wrap;
   max-width: 730px;
   margin-left: 30px;
+  margin-top: 10px;
 }
 
 .playlist__list {
@@ -384,7 +387,7 @@
 .footer__nav__item:nth-child(7),
 .footer__nav__item:nth-child(8),
 .footer__nav__item:nth-child(9) {
-  margin-left: 109px;
+  margin-left: 86px;
 }
 
 .footer__nav__item {
@@ -1229,7 +1232,7 @@ p {
 }
 
 .prime__block__left {
-  padding: 94px 0;
+  padding: 58px 0 58px 54px;
 }
 
 .prime__block__descr {
@@ -1332,6 +1335,7 @@ p {
 .podcast__item {
   position: relative;
   padding: 0;
+  max-height: 140px;
   margin-bottom: 30px;
 }
 
@@ -1407,7 +1411,8 @@ p {
 }
 
 .podcast__item__pic {
-  min-width: 130px;
+  max-height: 140px;
+  min-width: 112px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -1467,7 +1472,7 @@ p {
 }
 
 .podcast__wrapper__descr {
-  min-width: 76%;
+  min-width: 79%;
 }
 
 .podcast__item__block {
@@ -1488,7 +1493,7 @@ p {
 }
 
 .podcast__block {
-  padding: 24px 0 24px 30px;
+  padding: 16px 0 16px 30px;
   padding-right: 33px;
 }
 
@@ -1886,7 +1891,7 @@ p {
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
-  padding: 12px 43px;
+  padding: 12px 54px;
   gap: 4px;
   align-items: center;
   text-align: center;
@@ -2141,7 +2146,7 @@ p {
 .more__info {
   width: 100%;
   justify-content: space-between;
-  padding: 34px 0;
+  padding: 23px 0;
   border-top: 1px solid var(--color__3);
   border-bottom: 1px solid var(--color__3);
 }
@@ -2180,13 +2185,17 @@ p {
 }
 
 .guest__accordion__list {
-  justify-content: space-around;
+  justify-content: space-between;
+  max-width: 700px;
 }
 
 .guest__accordion__item {
   flex-direction: column;
+  align-items: start;
 }
-
+.no-vilible__guest {
+  visibility: hidden;
+}
 .guest__accordion__btn:not(:last-child) {
   margin-bottom: 16px;
 }
@@ -2251,7 +2260,7 @@ p {
   font-size: 16px;
   line-height: 180%;
   color: var(--color__3);
-  margin-top: 8px;
+  margin-top: 4px;
 }
 
 .btn__content__guest {
@@ -2267,7 +2276,7 @@ p {
   color: var(--color__12);
   border: 2px solid var(--color__12);
   border-radius: 77px;
-  padding: 17px 43px;
+  padding: 10px 17px;
   transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out,
     border 0.3s ease-in-out;
 }
@@ -2293,7 +2302,7 @@ p {
 /* playlist */
 
 .section__playlist {
-  padding: 94px 0;
+  padding: 94px 0 43px 0;
 }
 
 .title__playlist {
@@ -2351,7 +2360,7 @@ p {
 
 .label__check {
   position: relative;
-  padding-left: 32px;
+  padding-left: 40px;
   padding-top: 10px;
   cursor: pointer;
   font-family: "Muller";
@@ -2435,7 +2444,6 @@ p {
 
 .radion__btn__list {
   flex-direction: column;
-  margin-top: 8px;
 }
 
 .radio__btn__block__wrapper label:not(:last-child) {
@@ -2650,7 +2658,7 @@ p {
 /* offer */
 
 .section__offer {
-  padding: 94px 0;
+  padding: 94px 0 132px 0;
   background: var(--color__2);
 }
 
@@ -2749,7 +2757,7 @@ p {
   color: var(--color__7);
   border: 2px solid var(--color__7);
   border-radius: 100px;
-  padding: 25px 15px;
+  padding: 20px 8px;
   justify-content: flex-end;
   transition: color 0.3s ease-in-out, fill 0.3s ease-in-out,
     background-color 0.3s ease-in-out;
@@ -2819,7 +2827,7 @@ p {
 }
 
 .about__us__wrapper {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .about__us__title {
@@ -2878,7 +2886,7 @@ p {
 .swiper-button-next,
 .swiper-button-prev {
   width: 42px !important;
-  top: 36% !important;
+  top: 31% !important;
   transition: stroke 0.3s ease-in-out;
 }
 
@@ -3029,7 +3037,7 @@ p {
   border-radius: 40px;
   padding: 25px 54px;
   gap: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   transition: background-color 0.3s ease-in-out, border-color 0.3s ease-in-out;
   border: 2px solid var(--color__11);
 }
@@ -3114,11 +3122,11 @@ p {
 }
 
 .footer__link__nav {
-  margin-top: 24px;
+  margin-top: 12px;
 }
 
 .footer__social__link:not(:last-child) {
-  margin-right: 25px;
+  margin-right: 20px;
 }
 
 .social__link path {
